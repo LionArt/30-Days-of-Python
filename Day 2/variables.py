@@ -31,11 +31,6 @@ exp = pow(num_one, num_two)
 floor_division = num_one // num_two
 floor_division2 = int(num_one / num_two)
 
-"""
-Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
-"""
-
 def print_circle_info(r):
     if (type(r) != type(int())) & (type(r) != type(float())) :
         print("Can't print for non numeral")
